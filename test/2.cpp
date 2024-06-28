@@ -1,4 +1,4 @@
-#include "src.hpp"
+#include "/home/xxl/projects/ESet/Persistent_Treap.hpp"
 #if defined (_UNORDERED_MAP_)  || (defined (_LIST_)) || (defined (_MAP_)) || (defined (_SET_)) || (defined (_UNORDERED_SET_))||(defined (_GLIBCXX_MAP)) || (defined (_GLIBCXX_UNORDERED_MAP))
 BOOM :)
 #endif
@@ -6,7 +6,7 @@ BOOM :)
 
 int main() {
     freopen("2.in", "r", stdin);
-    freopen("2.out", "w", stdout);
+    // freopen("2.out", "w", stdout);
 //    srand(0);
 //    clock_t start, end;
 //    start = clock();
@@ -15,9 +15,9 @@ int main() {
     int op, lst=0, valid = 0,cnt=1;
     while (scanf("%d", &op) != EOF) {
         long long a, b, c;
-//        if(cnt==213){
-//            printf("!!!");
-//        }
+       if(cnt==213){
+           printf("!!!");
+       }
         switch (op) {
             case 0: {
                 scanf("%lld%lld", &a, &b);
